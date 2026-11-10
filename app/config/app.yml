@@ -1,0 +1,12 @@
+database:
+  host: localhost
+  port: 3306
+  user: root
+  password: root
+  name: mydb
+
+flask:
+  debug: true
+  host: "0.0.0.0"
+  port: 5000
+  secret_key: "super-secret-key-change-in-prod"
